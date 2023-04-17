@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import React, {useReducer, useEffect} from 'react';
 import {MuseumReducer, initailState} from '../reducer/MuseumReducers';
-import {GetMuseumID, GetMuseumIDInfo} from '../reducer/service';
+import {GetMuseumID, GetMuseumIDInfo} from '../service/service';
 import {infoinitailState, MuseumInfoReducer} from '../reducer/MuseuInfoReducer';
 
 const MuseumHomeScreen = ({navigation}:any) => {
