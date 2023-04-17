@@ -4,7 +4,7 @@ export const infoinitailState = {
   error: '',
 };
 
-export const MuseumInfoReducer = (state = initailState, action: any) => {
+export const MuseumInfoReducer = (state = infoinitailState, action: any) => {
   switch (action.type) {
     case 'FETCH_INFO':
       return {
